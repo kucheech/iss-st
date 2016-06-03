@@ -1,0 +1,15 @@
+<test page>
+
+!path D:\S-ST\FitnesseHome\FitnesseDemo\bin
+
+|!-fixture.MyFirstFixture-!|
+|a|b|add()|
+|1|1|2|
+|2|3|5|
+|3|5|6|
+
+|!-fixture.MyFirstFixture-!|
+|a|b|average()|
+|1|1|1|
+|2|3|2.5|
+|3|5|4|
